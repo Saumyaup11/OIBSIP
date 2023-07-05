@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(193, 193, 235, 0.753);
+    display: grid;
+    place-items: center;
+  }
+  form {
+    background-color: white;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 6px -6px #777;
+  }
+  
+  #tempCalc label {
+    font-size: 30px;
+  }
+  
+  #temp {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  #temp_diff {
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+  }
+  
+  [type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+  }
+  .result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 10rem;
+    height: 35px;
+    font-family: sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  #result-container {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
